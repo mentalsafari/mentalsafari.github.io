@@ -8,35 +8,38 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f5f8f6;
+      background: #e6f7ff; /* light sky blue */
       color: #333;
       text-align: center;
     }
     header {
-      background: #4caf50;
+      background: #4fc3f7; /* sky blue */
       color: white;
-      padding: 1.5rem 1rem;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
-    nav {
-      margin-top: 0.5rem;
+    header img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
     }
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 1rem;
+      margin: 0 0.8rem;
       font-weight: bold;
     }
     nav a:hover {
       text-decoration: underline;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: auto;
     }
     .hero {
       background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") no-repeat center center;
@@ -48,8 +51,27 @@
       font-size: 2.5rem;
       margin: 0;
     }
+    .intro, .features {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
     footer {
-      background: #333;
+      background: #0288d1;
       color: white;
       padding: 1rem;
       margin-top: 2rem;
@@ -59,33 +81,48 @@
 <body>
 
   <header>
-    <h1>Mental Safari 🌿</h1>
+    <h1>
+      <img src="https://cdn-icons-png.flaticon.com/512/427/427735.png" alt="Mental Safari Logo">
+      Mental Safari
+    </h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Breathing</a>
-      <a href="#">Stories</a>
-      <a href="#">Resources</a>
+      <a href="index.html">Home</a>
+      <a href="breathing.html">Breathing</a>
+      <a href="stories.html">Stories</a>
+      <a href="resources.html">Resources</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h2>Explore Your Mind, One Step at a Time</h2>
-    <p>Welcome to Mental Safari – a journey of calm, strength, and self-discovery.</p>
+    <h2>🌿 Welcome to Mental Safari</h2>
+    <p>A safe space for calm, healing, and growth.</p>
   </section>
 
-  <section>
-    <h2>🧘 Guided Breathing</h2>
-    <p>Follow simple breathing exercises to help you relax and find balance.</p>
+  <section class="intro">
+    <h2>Why Mental Safari?</h2>
+    <p>
+      Life can feel overwhelming, but your mind deserves care and peace. 
+      Mental Safari is your guide to mindfulness, healing stories, and 
+      trusted resources — all in one calming space.
+    </p>
   </section>
 
-  <section>
-    <h2>📖 Healing Stories</h2>
-    <p>Read inspiring journeys from others and share your own path to growth.</p>
-  </section>
-
-  <section>
-    <h2>🌍 Resources</h2>
-    <p>Find helpful tools, hotlines, and articles for mental wellness.</p>
+  <section class="features">
+    <div class="card">
+      <h3>🧘 Breathing</h3>
+      <p>Simple guided exercises to relax your mind and body, anytime you need calm.</p>
+      <a href="breathing.html">Explore →</a>
+    </div>
+    <div class="card">
+      <h3>📖 Stories</h3>
+      <p>Read and share inspiring stories of healing, strength, and resilience.</p>
+      <a href="stories.html">Read More →</a>
+    </div>
+    <div class="card">
+      <h3>🌍 Resources</h3>
+      <p>Find hotlines, articles, and tools to support your mental wellness journey.</p>
+      <a href="resources.html">View Resources →</a>
+    </div>
   </section>
 
   <footer>
