@@ -1,139 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Career Safari - Mental Safari</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #e0f7fa;
-      color: #333;
-    }
-    header {
-      background-color: #0288d1;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      margin: 0 15px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    main {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      color: #01579b;
-      border-bottom: 2px solid #0288d1;
-      padding-bottom: 5px;
-    }
-    .job-board {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 1.5rem;
-      margin-top: 2rem;
-    }
-    .job-listing {
-      background: white;
-      padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .job-listing h3 {
-      margin: 0;
-      color: #0288d1;
-    }
-    .job-listing p {
-      margin: 5px 0;
-    }
-    .job-listing a {
-      align-self: flex-start;
-      margin-top: 10px;
-      padding: 8px 12px;
-      background-color: #0288d1;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background 0.2s ease;
-    }
-    .job-listing a:hover {
-      background-color: #01579b;
-    }
-    footer {
-      background-color: #0288d1;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
+  <meta charset="utf-8">
+  <title>Work + Life — Mental Safari</title>
 </head>
 <body>
   <header>
-    <h1>Mental Safari</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="breathing.html">Breathing</a>
-      <a href="stories.html">Stories</a>
-      <a href="resources.html">Resources</a>
-      <a href="careers.html">Career Safari</a>
-    </nav>
+    <!-- Optional: include your site's header/nav include if needed -->
   </header>
 
   <main>
-    <h2>Career Safari</h2>
-    <img src="https://img.freepik.com/free-vector/career-development-illustration_23-2148693104.jpg" 
-         alt="Career Success Illustration" 
-         style="max-width:100%; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-
-    <p>Welcome to <strong>Career Safari</strong> 🌍 — a space where your professional journey meets mental well-being.  
-    Just like a safari, your career path is an adventure: full of exploration, growth, and discovery.  
-    Here, we curate opportunities to help you find meaningful work while staying true to your mental health and balance in life.</p>
-
-    <div class="job-board">
-      <div class="job-listing">
-        <h3>Customer Support Specialist</h3>
-        <p><strong>Company:</strong> Fintech Startup</p>
-        <p><strong>Location:</strong> Remote</p>
-        <a href="https://example.com/job1" target="_blank">View Job</a>
-      </div>
-
-      <div class="job-listing">
-        <h3>Mental Health Program Officer</h3>
-        <p><strong>Company:</strong> NGO in Kenya</p>
-        <p><strong>Location:</strong> Nairobi, Kenya</p>
-        <a href="https://example.com/job2" target="_blank">View Job</a>
-      </div>
-
-      <div class="job-listing">
-        <h3>Data Analyst Intern</h3>
-        <p><strong>Company:</strong> SaaS Company</p>
-        <p><strong>Location:</strong> Remote</p>
-        <a href="https://example.com/job3" target="_blank">View Job</a>
-      </div>
-
-      <div class="job-listing">
-        <h3>Community Wellness Coordinator</h3>
-        <p><strong>Company:</strong> Mental Health NGO</p>
-        <p><strong>Location:</strong> Kisumu, Kenya</p>
-        <a href="https://example.com/job4" target="_blank">View Job</a>
-      </div>
-    </div>
+    <section id="work-life">
+      <h1>Work + Life</h1>
+      <p>Balance isn’t about perfection — it’s about flow. At Mental Safari, we believe your work and your life can thrive together when you make space for calm, clarity, and connection.</p>
+    </section>
   </main>
-
-  <footer>
-    <p>Mental Safari © 2025 | Curating jobs that support mental well-being</p>
-  </footer>
 </body>
 </html>
